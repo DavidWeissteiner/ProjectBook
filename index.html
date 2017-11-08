@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project Book</title>
+        
+    
+    <script>
+        
+        function changeImage()
+        {
+            if(!document.getElementById('smiley').src.localeCompare("Pictures/sad-smiley.png"))
+                {
+                    document.getElementById('smiley').src="Pictures/sad-smiley.png";
+                } else if(!document.getElementById('smiley').src.localeCompare("Pictures/happy-smiley.png"))
+                {
+                    document.getElementById('smiley').src="Pictures/happy-smiley.png";
+                }
+            return;
+        }
+        
+    </script>
+    
+    
+    <style>
+        .button {
+          border-radius: 4px;
+          background-color: #5F04B4;
+          border: none;
+          color: #FFFFFF;
+          text-align: center;
+          font-size: 28px;
+          padding: 20px;
+          width: 200px;
+          transition: all 0.5s;
+          cursor: pointer;
+          margin: 5px;
+        }
+
+        .button span {
+          cursor: pointer;
+          display: inline-block;
+          position: relative;
+          transition: 0.5s;
+        }
+
+        .button span:after {
+          content: '\00bb';
+          position: absolute;
+          opacity: 0;
+          top: 0;
+          right: -20px;
+          transition: 0.5s;
+        }
+
+        .button:hover span {
+          padding-right: 25px;
+        }
+
+        .button:hover span:after {
+          opacity: 1;
+          right: 0;
+        }
+    </style>
+    
+</head>
+    
+    
+<body>
+    
+    
+    <img id="smiley" src="Pictures/happy-smiley.png">
+
+    <button class="button" onclick="changeImage()"><span>START</span></button>
+
+    
+
+    
+    
+    <table BORDER='0' CELLPADDING='0' CELLSPACING='0' WIDTH='91'>
+        <tr>
+            <td WIDTH='91' HEIGHT='18'>
+                <a TARGET=_blank HREF="">
+                    <img ALT="" WIDTH='91' HEIGHT='18' BORDER='0' SRC="http://www.imgserver.org/stylet-bf.phtml?ZQ=63">
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td HEIGHT='18'>
+                <a HREF="http://www.google.com/" TARGET=_blank>
+                    <img WIDTH='59' BORDER='0' HEIGHT='18' SRC="http://www.imgserver.org/0elevons/claymore~21.png" ALT="Www.free-counter-plus.com"></a><a TARGET=_blank HREF="http://www.free-counter-plus.com/counter/stats/stats.asp?id=555567554"><img WIDTH='32' ALT="" BORDER='0' HEIGHT='18' SRC="http://www.imgserver.org/nomadism/566/striker810.gif"></a>
+            </td>
+        </tr>
+        <tr ALIGN=Center>
+            <td COLSPAN='2' HEIGHT='15'>
+            </td>
+        </tr>
+    </table>
+    
+    
+    
+
+    
+</body>
+</html>
+
