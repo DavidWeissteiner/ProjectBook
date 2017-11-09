@@ -6,16 +6,15 @@
     
     <script>
         
-        function changeImage()
+        async function changeImage()
         {
-            if(!document.getElementById('smiley').src.localeCompare("Pictures/sad-smiley.png"))
-                {
-                    document.getElementById('smiley').src="Pictures/sad-smiley.png";
-                } else if(!document.getElementById('smiley').src.localeCompare("Pictures/happy-smiley.png"))
-                {
-                    document.getElementById('smiley').src="Pictures/happy-smiley.png";
-                }
-            return;
+            while(true)
+            {
+                document.getElementById('smiley').src="Pictures/sad-smiley.png";
+                await sleep('10000');
+                document.getElementById('smiley').src="Pictures/happy-smiley.png";
+                await sleep('10000');
+            }
         }
         
     </script>
