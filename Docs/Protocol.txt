@@ -1,7 +1,13 @@
 08/11/2017
-	50min - Sammeln von Bilder und Inhalten
+	50min - Sammeln von Bildern und Inhalten
 	60min - Herumprobieren mit JS
 
 09/11/2017
 	15min - Anschauen von interaktiven Beispielseiten
 	35min - Schreiben des Pflichtenhefts (1% abgeschlossen :-( )
+
+13/11/2017
+	120min - Schreiben des Pflichtenhefts (85% abgeschlossen)
+	25min - Sammeln von Bildern und Inhalten
+	55min - Einlesen in JavaScript Programmiermöglichkeiten
+	

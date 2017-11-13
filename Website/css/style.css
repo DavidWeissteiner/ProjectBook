@@ -1,11 +1,21 @@
-div{
-    color: darkmagenta;
-    background-image: url(../images/onTronik_exDrummer_soad.jpg);
-    
-}
-
-
 .center{
     text-align: center;
-    border: 3px solid green;
+}
+
+.header{
+    background-color: darkmagenta;
+}
+
+h1{
+}
+
+h2{
+    color: white;
+}
+
+.menu{
+    left: -250px;
+    height: 100%;
+    position: fixed;
+    width: 250px;
 }
