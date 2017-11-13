@@ -16,6 +16,15 @@
                 await sleep('10000');
             }
         }
+
+      Caman('#my-image', function () {
+        this.brightness(10);
+        this.contrast(30);
+        this.sepia(60);
+        this.saturation(-30);
+        this.render();
+      });
+
         
     </script>
     
@@ -71,8 +80,8 @@
 
     <button class="button" onclick="changeImage()"><span>START</span></button>
 
-    
 
+    <img data-caman="brightness(10) contrast(30) sepia(60) saturation(-30)" data-caman-hidpi="/Pictures/onTronik_exDrummer_soad.jpg" src="path/to/image.jpg">
     
     
     <table BORDER='0' CELLPADDING='0' CELLSPACING='0' WIDTH='91'>
