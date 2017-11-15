@@ -1,0 +1,18 @@
+.anatomyBody{
+    background-image: url(../images/humanbody/recycled_texture_background_by_sandeep_m-d6aeau9_PZ9chud.jpg);
+
+}
+
+div.center{
+    text-align: center;
+}
+
+@keyframes example {
+    from {width: 626px;}
+    to {width: 65%;}
+}
+
+input{
+    animation-name: example;
+    animation-duration: 5s;
+}
