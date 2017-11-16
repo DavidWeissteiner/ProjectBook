@@ -30,15 +30,29 @@
     
     <script src="js/anatomy.js"></script>
     
-    <div class="center">
+    <div class="fixedHeader" style="height: 75px">
+        <input type="image" id="openMenu" src="images/633488-200.png" width="70px" height="70px" onclick="openMenu" />
+        <a class="center" style="font-size: 50px" href="index.html">HOW TO BE FREE - Joe Blow</a>
+    </div>
+    
+    <div id="humanBody" class="center">
         <div class="anatomyBody">
 
-            <br><input type="image" id="anatomyHead" src="images/humanbody/head.png" onclick="headOnClick();" />
-            <br><input type="image" id="anatomyHeart" src="images/humanbody/heart.png" onclick="heartOnClick();" />
-            <br><input type="image" id="anatomySex" src="images/humanbody/sex.png" onclick="sexOnClick();" />
-            <br><input type="image" id="anatomyLegs" src="images/humanbody/legs.png" onclick="legsOnClick();" />
+            <br><input class="anatomyBody" type="image" id="anatomyHead" src="images/humanbody/head.png" onclick="headOnClick();" />
+            <br><input class="anatomyBody" type="image" id="anatomyHeart" src="images/humanbody/heart.png" onclick="heartOnClick();" />
+            <br><input class="anatomyBody" type="image" id="anatomySex" src="images/humanbody/sex.png" onclick="sexOnClick();" />
+            <br><input class="anatomyBody" type="image" id="anatomyLegs" src="images/humanbody/legs.png" onclick="legsOnClick();" />
         
         </div>
+    </div>
+    
+    <div id="menuDiv" class="menu">
+        <ul>
+            <li><a href="index.html#">HOME</a></li>
+            <li><a>BOOK</a></li>
+            <li><a>CONTACT</a></li>
+            <li><a>ABOUT</a></li>
+        </ul>
     </div>
     
 </body>

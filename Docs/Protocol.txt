@@ -13,3 +13,6 @@
 	
 15/11/2017
 	150min - Angefangen mit der Unterseite namens "anatomy.html"
+
+16/11/2017
+	60min - "anatomy.html" weitergemacht
