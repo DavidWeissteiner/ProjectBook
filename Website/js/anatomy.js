@@ -7,3 +7,8 @@ function headOnClick(){
         document.getElementById("anatomyHead").src="images/humanBody/head.png";
     }
 }
+
+
+function openMenu(){
+    document.getElementById("menuDiv").class="menuVisible";
+}

@@ -15,6 +15,7 @@ div.center{
 input.anatomyBody{
     animation-name: example;
     animation-duration: 5s;
+    width: 65%;
 }
 
 a.center{
@@ -60,4 +61,28 @@ li:last-child {
 li a:hover:not(.active) {
     background-color: #555;
     color: white;
+}
+
+
+
+
+menuHidden{
+    width: "250px";
+    left: "-0px";
+    position: fixed;
+    height: 100%;
+}
+
+menuVisible{
+    top: "0px";
+    width: "250px";
+    height: 100%;
+    animation-name: menuAnimation;
+    animation-duration: 1s;
+    left: "0px";
+}
+
+@keyframes menuAnimation{
+    from{left: "-250px";}
+    to{left: "0px";}
 }
