@@ -31,8 +31,8 @@
     <script src="js/anatomy.js"></script>
     
     <div class="fixedHeader" style="height: 75px">
-        <input type="image" id="openMenuBtn" src="images/633488-200.png" width="70px" height="70px" onclick="openMenu();" />
-        <a class="center" style="font-size: 50px" href="index.html">HOW TO BE FREE - Joe Blow</a>
+        <span style="font-size:50px; cursor:pointer" onclick="openNav()">&#9776;</span>
+        <a style="font-family: 'Lucida Console'; font-size: 50px; cursor: pointer" href="index.html">HOW TO BE FREE - Joe Blow</a>
     </div>
     
     <div id="humanBody" class="center">
@@ -46,18 +46,15 @@
         </div>
     </div>
     
-    <div id="menuDiv" class="menuHidden">
+    <div id="anatomySideNav" class="sidenav">
         <ul>
-            <li><a href="index.html#">HOME</a></li>
-            <li><a>BOOK</a></li>
-            <li><a>CONTACT</a></li>
-            <li><a>ABOUT</a></li>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html#">HOME</a>
+            <a>BOOK</a>
+            <a>CONTACT</a>
+            <a>ABOUT</a>
         </ul>
     </div>
-    
-    
-    
-    
-    <iframe width="640" height="360" src="https://www.youtube.com/embed/AOLhYzy0jd0" frameborder="0" gesture="media" allowfullscreen></iframe>
+
     
 </body>

@@ -9,6 +9,14 @@ function headOnClick(){
 }
 
 
-function openMenu(){
-    document.getElementById("menuDiv").class="menuVisible";
+
+
+function openNav() {
+    document.getElementById("anatomySideNav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("anatomySideNav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
 }
