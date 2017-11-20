@@ -8,6 +8,14 @@ function headOnClick(){
     }
 }
 
+function heartOnClick(){
+    if(document.getElementById("anatomyHeart").src.includes("heart.png")){
+        document.getElementById("anatomyHeart").src="images/humanBody/heartCard.png";
+    } else if(document.getElementById("anatomyHeart").src.includes("heartCard.png")){
+        document.getElementById("anatomyHeart").src="images/humanBody/heart.png";
+    }
+}
+
 
 
 
