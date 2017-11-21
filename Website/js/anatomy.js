@@ -24,6 +24,14 @@ function sexOnClick(){
     }
 }
 
+function legsOnClick(){
+    if(document.getElementById("anatomyLegs").src.includes("legs.png")){
+        document.getElementById("anatomyLegs").src="images/humanBody/legsCard.png";
+    } else if(document.getElementById("anatomyLegs").src.includes("legsCard.png")){
+        document.getElementById("anatomyLegs").src="images/humanBody/legs.png";
+    }
+}
+
 
 
 

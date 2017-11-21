@@ -1,6 +1,5 @@
 div.anatomyBody{
     background-image: url(../images/humanbody/recycled_texture_background_by_sandeep_m-d6aeau9_PZ9chud.jpg);
-
 }
 
 div.center{
@@ -9,13 +8,13 @@ div.center{
 
 @keyframes example {
     from {width: 626px;}
-    to {width: 65%;}
+    to {width: 70%;}
 }
 
 input.anatomyBody{
     animation-name: example;
     animation-duration: 5s;
-    width: 65%;
+    width: 70%;
 }
 
 a.center{
@@ -24,6 +23,34 @@ a.center{
 
 div.fixedHeader{
     background-color: #6E6E6E;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+
+
+/* Header-Link */
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: #D8D8D8;
+}
+
+
+/* Header-Menu-Button */
+span{
+    color: white;
+}
+span:hover{
+    color: #D8D8D8;
 }
 
 
@@ -35,7 +62,7 @@ div.fixedHeader{
 
 
 
-
+/* Menu */
 .sidenav {
     height: 100%;
     width: 0;
@@ -48,20 +75,17 @@ div.fixedHeader{
     transition: 0.5s;
     padding-top: 60px;
 }
-
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 8px 8px 8px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 35px;
     color: #818181;
     display: block;
     transition: 0.3s;
 }
-
 .sidenav a:hover {
     color: #f1f1f1;
 }
-
 .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -69,14 +93,26 @@ div.fixedHeader{
     font-size: 36px;
     margin-left: 50px;
 }
-
-
 #main {
     transition: margin-left .5s;
     padding: 16px;
 }
-
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+
+
+
+/* Copyright footer */
+footer{
+    background-color: dimgrey;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer small:hover{
+    color: white;
 }
