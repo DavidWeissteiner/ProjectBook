@@ -16,6 +16,14 @@ function heartOnClick(){
     }
 }
 
+function sexOnClick(){
+    if(document.getElementById("anatomySex").src.includes("sex.png")){
+        document.getElementById("anatomySex").src="images/humanBody/sexCard.png";
+    } else if(document.getElementById("anatomySex").src.includes("sexCard.png")){
+        document.getElementById("anatomySex").src="images/humanBody/sex.png";
+    }
+}
+
 
 
 
