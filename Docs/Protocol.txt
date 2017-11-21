@@ -16,3 +16,7 @@
 
 16/11/2017
 	60min - "anatomy.html" weitergemacht
+
+20/11/2017
+	200min - "anatomy.html" weitergemacht (Menu, Bilder)
+	50min - "onlinereader.html" erstellt und "selftest.html" erstellt
