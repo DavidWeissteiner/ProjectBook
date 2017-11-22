@@ -1,5 +1,44 @@
 
 
+
+/* Header */
+a.center{
+    text-align: center;
+}
+
+div.fixedHeader{
+    background-color: #6E6E6E;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+
+/* Header-Link */
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: #D8D8D8;
+}
+
+
+/* Header-Menu-Button */
+span{
+    color: white;
+}
+span:hover{
+    color: #D8D8D8;
+}
+
+
+
 /* Menu */
 .sidenav {
     height: 100%;

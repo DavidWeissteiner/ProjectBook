@@ -20,3 +20,7 @@
 20/11/2017
 	200min - "anatomy.html" weitergemacht (Menu, Bilder)
 	50min - "onlinereader.html" erstellt und "selftest.html" erstellt
+
+21/11/2017
+	130min - Abschließen von "anatomy.html" (mit Ausarbeitung des Menu und des Headers) --> v0.1
+	30min - Probieren bei "selftest.html" eine externe Seite einzufügen
