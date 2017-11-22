@@ -24,3 +24,6 @@
 21/11/2017
 	130min - Abschließen von "anatomy.html" (mit Ausarbeitung des Menu und des Headers) --> v0.1
 	30min - Probieren bei "selftest.html" eine externe Seite einzufügen
+
+22/11/2017
+	100min - Weiterarbeiten an "selftest.html"
