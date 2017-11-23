@@ -14,6 +14,7 @@ div.fixedHeader{
     width: 100%;
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 
 
@@ -88,4 +89,7 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+footer small:hover{
+    color: white;
 }
