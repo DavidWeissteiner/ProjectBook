@@ -27,3 +27,6 @@
 
 22/11/2017
 	100min - Weiterarbeiten an "selftest.html"
+
+23/11/2017
+	40min - Abschließen von "selftest.html" --> v0.2
