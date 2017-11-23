@@ -39,6 +39,19 @@ span:hover{
 
 
 
+/* Bookshelf */
+@keyframes bookshelfHover {
+    from {width: 33%;}
+    to {width: 50%;}
+}
+input:hover{
+    animation-name: bookshelfHover;
+    animation-duration: 3s;
+}
+
+
+
+
 /* Menu */
 .sidenav {
     height: 100%;
