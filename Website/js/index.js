@@ -24,3 +24,16 @@ function closeNav() {
     document.getElementById("anatomySideNav").style.width = "0";
     document.getElementById("main").style.marginLeft= "0";
 }
+
+
+
+function anatomyBtnOnClick() {
+        location.href = "./anatomy.html";
+    };
+function selftestBtnOnClick() {
+        location.href = "./selftest.html";
+    };
+function readerBtnOnClick() {
+        location.href = "./onlinereader.html";
+    };
+

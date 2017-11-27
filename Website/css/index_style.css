@@ -12,7 +12,7 @@ div.fixedHeader{
     width: 100%;
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 10;
 }
 
 
@@ -40,14 +40,61 @@ span:hover{
 
 
 /* Bookshelf */
+/*
 @keyframes bookshelfHover {
-    from {width: 33%;}
-    to {width: 50%;}
+    50%     {top: 20px;}
+    100%    {top: 0px;}
 }
 input:hover{
     animation-name: bookshelfHover;
     animation-duration: 3s;
 }
+*/
+#bookshelf{
+    width: 100%;
+    text-align: center;
+    display: table-row;
+}
+@keyframes jump {
+  0%   {transform: translate3d(0,0,0) scale3d(1,1,1);}
+  25%  {transform: translate3d(0,3%,0) scale3d(.9,1.1,1);}
+  100% {transform: translate3d(0,10%,0) scale3d(1.1,.9,1);}
+}
+input.jump{
+    z-index: 1;
+}
+input.jump:hover {
+  transform-origin: 50% 50%;
+  animation: jump .8s linear alternate infinite;
+}
+div.behind{
+    z-index: -1;
+    position: absolute;
+    top: 85px;
+    width: 33%;
+}
+div.behind{
+    font-size: 35px;
+}
+#bs1{
+    margin-left: 0%;
+}
+#bs2{
+    margin-left: 33%;
+}
+#bs3{
+    margin-left: 66%;
+}
+
+
+
+
+
+p{
+    font-size: 30px;
+}
+
+
 
 
 

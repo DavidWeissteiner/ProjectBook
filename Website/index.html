@@ -25,7 +25,7 @@
     </head>
     
     
-    <body>
+    <body style="background-color: #A9A9F5">
 
         <script src="js/index.js"></script>
 
@@ -49,17 +49,26 @@
         
         
         
-        <div style="width: 100%; text-align: center;">
-            <input type="image" width="33%" src="images/bookshelf/1.png">
-            <input type="image" width="33%" src="images/bookshelf/2.png">
-            <input type="image" width="33%" src="images/bookshelf/3.png">
+        
+        <div id="bookshelf">
+            <input class="jump" type="image" width="33%" src="images/bookshelf/1.png" onclick="anatomyBtnOnClick()">
+            <input class="jump" type="image" width="33%" src="images/bookshelf/2.png" onclick="selftestBtnOnClick()">
+            <input class="jump" type="image" width="33%" src="images/bookshelf/3.png" onclick="readerBtnOnClick()">
+            <div id="bs1" class="behind"><a>CHAPTER ANATOMY</a></div>
+            <div id="bs2" class="behind"><a>SELF TEST</a></div>
+            <div id="bs3" class="behind"><a>ONLINE READER</a></div>
         </div>
         
+
         
         
-        
-        <div style="text-align: center;">
+        <div style="text-align: center; display: inline-flex; align-items: center;">
             <img alt="BOOKCOVER" src="images/13264724.jpg">
+            <div style="flex-grow: 1; display: table-column;">
+                <p>How can we free ourselves from mental suffering? How can we unlock what the poet William Blake referred to as “the mind-forged manacles” - those unhelpful, unfounded and inflexible habits of thought which keep us from reaching our true creative potential?</p>
+                <p>This book provides practical advice on how to achieve this.</p>
+                <p>But it also offers an imaginative holistic theoretical framework for an understanding of the nature of the universe, the psychological history of the human race and the meaning of life.</p>
+            </div>
         </div>
         
         
