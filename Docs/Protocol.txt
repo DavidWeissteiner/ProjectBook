@@ -30,3 +30,6 @@
 
 23/11/2017
 	40min - Abschließen von "selftest.html" --> v0.2
+
+27/11/2017
+	240min - Abschließen von "index.html" --> v1
